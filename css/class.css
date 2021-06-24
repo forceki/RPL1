@@ -119,7 +119,7 @@ div span{
 .home{
 	width:100%;
 	height:100vh;
-  background-image: linear-gradient(#264653, #1D607B);
+  background-image: linear-gradient(#1D607B, #264653);
   position: static;
   padding-bottom: 20px;
 }
@@ -645,13 +645,14 @@ div.human{
         height:70vh;
     }
     .logo-home img{
+    margin-top:100px;
+    margin-bottom: 0;
+    width:300px;
     
-  margin-top:200px;
-  margin-bottom: 0;
-  width:340px;
-  height:220px;
     }
-
+    .logo-home h2{
+      font-size:20px;
+    }
     .About{  
     background: #264653;
     margin-top:100px;
@@ -659,6 +660,7 @@ div.human{
     div.logo-home{
       margin:0;
     }
+
 
       .human-info{
         top:50px;
